@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal with Image Slider</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button id="openModalBtn">Open Modal</button>
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="slider">
+      <img class="slides" src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/7/2022_7$largeimg_1243059496.jpg">
+      <img class="slides" src="https://images.indianexpress.com/2023/01/Collage-Maker-03-Jan-2023-02.00-PM.jpg?w=350">
+      <img class="slides" src="https://5.imimg.com/data5/CO/IP/MQ/SELLER-30220222/bollywood-wall-poster-500x500.jpg">
+    </div>
+    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
